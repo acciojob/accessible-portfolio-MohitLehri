@@ -3,11 +3,46 @@
 <html>
 
 <head>
+	<title>Document</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+
+	<h1>ARIA roles</h1>
+	  <header role="banner">
+    <h1>Welcome to My Web Page</h1>
+  </header>
+
+  <nav role="navigation">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main role="main">
+    <img src="https://via.placeholder.com/400" alt="A placeholder image" role="img" />
+
+    <section role="region" aria-label="Description">
+      <p>This is a simple and accessible web page that demonstrates the use of ARIA roles in HTML.</p>
+    </section>
+
+    <section role="region" aria-label="Key Features">
+      <h2>Key Features</h2>
+      <ul>
+        <li>Clean and semantic HTML</li>
+        <li>Accessible with ARIA roles</li>
+        <li>Responsive design</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 My Accessible Web Page</p>
+  </footer>
     <script type="text/javascript" src="./script.js">
 </script>
 
